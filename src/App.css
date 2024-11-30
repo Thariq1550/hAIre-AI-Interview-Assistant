@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Welcome Screen */
+.welcome-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.welcome-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.welcome-logo {
+  width: 60%; /* Relative width for responsiveness */
+  margin-bottom: 2rem;
+}
+
+.welcome-title {
+  font-size: 4rem; /* Relative font size for responsiveness */
+  font-weight: bold;
+  padding-top: 5%;
+  margin: 0;
+  color: #003366;
+}
+
+.welcome-message {
+  font-size: 2rem; /* Scaled-down for readability on smaller screens */
+  color: #333;
+  margin: 2rem 0;
+}
+
+.final-message {
+  font-size: 1.5rem; /* Scaled for responsiveness */
+  font-weight: bold;
+  color: #003366;
+  margin-top: 1.5rem;
+}
+
+.welcome-image {
+  width: 50%; /* Relative width to scale with the screen */
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-button {
+  font-size: 2rem; /* Adjust button font size */
+  font-weight: bold;
+  padding: 1rem 4rem; /* Adjust padding proportionally */
+  border: none;
+  border-radius: 50px; /* Rounded edges for buttons */
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Add hover effect for button */
+.welcome-button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+  color: #fff;
+}
+
+
+/* Buttons */
+.button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button {
+  background-color: #003366; /* WHU dark blue */
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+
+button.disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #d9d9d9;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+  height: 50px;
+  width: auto;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+}
+
+.header-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-profile span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 15px;
+}
+
+.profile-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #003366; /* WHU Blue */
+}
+
+/* Video Screen */
+.video-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px); /* Full screen minus header height */
+  padding: 20px;
+  gap: 20px;
+}
+
+.video-container {
+  width: 80%;
+  max-width: 1300px;
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.interview-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.record-button {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.record-button:hover {
+  background-color: #e63946;
+}
+
+.primary-button {
+  background-color: #003366;
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+
+button.disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366; /* WHU dark blue */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative; /* Ensures it doesn't overlap with content */
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: normal;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
