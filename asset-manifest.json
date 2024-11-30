@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hAIre-AI-Interview-Assistant/static/css/main.0c746aad.css",
+    "main.js": "/hAIre-AI-Interview-Assistant/static/js/main.8a88b0a7.js",
+    "static/js/488.b1126c8e.chunk.js": "/hAIre-AI-Interview-Assistant/static/js/488.b1126c8e.chunk.js",
+    "static/media/welcomeImage.png": "/hAIre-AI-Interview-Assistant/static/media/welcomeImage.25098425652bf0e018e7.png",
+    "static/media/profileIcon.png": "/hAIre-AI-Interview-Assistant/static/media/profileIcon.9e4745a27351f6317a61.png",
+    "static/media/whu_logo_2.png": "/hAIre-AI-Interview-Assistant/static/media/whu_logo_2.a3fc08c29503aa41fe23.png",
+    "index.html": "/hAIre-AI-Interview-Assistant/index.html",
+    "main.0c746aad.css.map": "/hAIre-AI-Interview-Assistant/static/css/main.0c746aad.css.map",
+    "main.8a88b0a7.js.map": "/hAIre-AI-Interview-Assistant/static/js/main.8a88b0a7.js.map",
+    "488.b1126c8e.chunk.js.map": "/hAIre-AI-Interview-Assistant/static/js/488.b1126c8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c746aad.css",
+    "static/js/main.8a88b0a7.js"
+  ]
+}
